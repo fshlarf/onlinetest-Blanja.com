@@ -1,47 +1,72 @@
 <template>
-  <div>
-    Hai
+  <div class="container-fluid">
+    <Biodata/>
+    <br>
+    <div class="container ">
+        <h5 style="color: red">
+          Skywalker Movie's
+        </h5>
+      <div class="row">
+        <div class="col-12 col-sm-6 col-md-8">
+          
+          <div class="card-columns">
+            <div class="card col-md-8">
+              <img class="card-img-top" src="../assets/images/image (1).png" alt="">
+              <div class="card-body">
+                <h6 class="card-title">Card title</h6>
+              </div>
+            </div>
+          </div>
+          
+
+        </div>
+        <div class="col-6 col-md-4">.col-6 .col-md-4
+          
+        </div>
+      </div>
+    </div> 
   </div>
 </template>
 
 <script>
-import AppLogo from '~/components/AppLogo.vue'
-
+import Biodata from "~/components/Biodata.vue";
 export default {
   components: {
-    AppLogo
+    Biodata
+  },
+  data() {
+    return {
+
+    }
+  },
+  mounted() {
+    // axios.get("https://swapi.co/api/people/1/", {
+    //     crossDomain: true
+    //   })
+    //   .then(res => {
+    //     this.user = res.data;
+    //   })
+    //   .catch(err => {
+    //     console.log(err);
+    //   });
   }
 }
 </script>
 
 <style>
-.container {
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.title {
-  font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; /* 1 */
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
-
 .subtitle {
   font-weight: 300;
   font-size: 42px;
-  color: #526488;
   word-spacing: 5px;
   padding-bottom: 15px;
 }
-
 .links {
   padding-top: 15px;
+}
+@media (max-width: 768px) {
+  .card {
+    width: 100%;
+  }
 }
 </style>
 
