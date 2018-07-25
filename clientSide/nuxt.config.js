@@ -12,7 +12,7 @@ module.exports = {
   },
   css: [
     'bootstrap/dist/css/bootstrap.css',
-    // '~/css/main.css'
+    '~/assets/css/main.css'
   ],
 
   script: [

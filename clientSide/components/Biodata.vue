@@ -72,12 +72,4 @@ export default {
         padding-left: 7vw;
     }
 }
-@media (max-width:2000px) {
-        .img-biodata {
-        padding-top: 8vh;
-        padding-bottom: 8vh;
-        padding-right: 3vw;
-        padding-left: 3vw;
-    }
-}
 </style>

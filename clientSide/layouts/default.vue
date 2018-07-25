@@ -1,6 +1,8 @@
 <template>
-  <div class="mt-3">
-    <nuxt/>
+  <div class="container-fluid">
+    <div class="mt-3">
+      <nuxt/>
+    </div>
   </div>
 </template>
 
@@ -12,6 +14,8 @@ export default {
 
 
 <style>
-
+.container-fluid {
+  width: 100%;
+}
 </style>
 
