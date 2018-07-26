@@ -50,7 +50,6 @@ export default {
 };
 </script>
 
-
 <style>
 .h4-biodata {
   margin-bottom: 3vh;

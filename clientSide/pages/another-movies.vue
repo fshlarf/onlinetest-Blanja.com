@@ -6,3 +6,9 @@
         <nuxt-link to='/'>Back to home</nuxt-link>
     </div>
 </template>
+
+<script>
+export default {
+    layout: 'navigation-footer'
+}
+</script>

@@ -10,7 +10,7 @@
               Skywalker Movie's
             </span>
             <span style="float: right">
-              <nuxt-link to='skywalker-movies'>see more</nuxt-link>
+              <nuxt-link to='skywalker-movies'>See More</nuxt-link>
             </span>
           </div>
           <div class="autowide">
@@ -58,6 +58,5 @@ body {
   font-family: sans-serif;
   font-size: 0.9rem;
 }
-
 </style>
 

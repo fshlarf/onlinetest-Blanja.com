@@ -7,15 +7,7 @@
 </template>
 
 <script>
-export default {
-  
-}
+export default {}
 </script>
 
-
-<style>
-.container-fluid {
-  width: 100%;
-}
-</style>
 

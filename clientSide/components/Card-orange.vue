@@ -1,10 +1,10 @@
 <template>
     <div class="module">
         <div class="card main-content">
-            <img class="card-img-top orange" src="../assets/images/image (1).png" alt="Card image cap">
+            <img class="card-img-top orange" src="../assets/images/image (1).png" @click="toDetail" alt="mages not found">
             <div class="card-body orange">
                 <nuxt-link class="nuxtlink-card" to="/details/revenge-ots">
-                    <p class="card-text"><b>{{film.title}}</b></p>
+                  <p class="card-text"><b>{{film.title}}</b></p>
                 </nuxt-link>
                 <p class="card-text parent">Director:</p>
                 <p class="card-text">{{film.director}}</p>
@@ -34,7 +34,12 @@ export default {
       .catch(err => {
         console.log(err);
       });
-  }
+  },
+   methods: {
+    toDetail() {
+      this.$router.replace({path: '/details/revenge-ots'})
+    }
+  },
 };
 </script>
 
