@@ -1,7 +1,7 @@
 <template>
-    <div class="container">
+    <div class="">
         <h4 class="h4-biodata">Luke Skywalker</h4>
-        <div class="container cont-biodata">
+        <div class="container-biodata">
             <br>
             <div class="media">
                 <div class="align-self-center mr-4">
@@ -29,7 +29,7 @@ export default {
        }
    },
    mounted() {
-       axios.get('https://swapi.co/api/people/1/', {
+       axios.get('https://swapi.co/api/people/1', {
            crossDomain: true
        }).then(res => {
            this.user = res.data;
@@ -45,9 +45,9 @@ export default {
 .h4-biodata {
     margin-bottom: 3vh;
 }
-.container.cont-biodata {
+.container-biodata {
     background-color: rgb(26, 25, 25);
-    height: 32vh;
+    height: 36vh;
 }
 .img-biodata {
     background-color: rgb(124, 122, 122);
@@ -55,21 +55,36 @@ export default {
     padding-bottom: 8vh;
     padding-right: 3vw;
     padding-left: 3vw;
+    margin-left: 2vw;
 }
 .media-body {
-    color: white
+    color: white;
+    padding-top: 10px;
+}
+.media {
+    padding: 2vh;
 }
 @media (max-width:350px) {
-     .container.cont-biodata {
-        height: 38vh;
+    .container-biodata {
+        height: 34vh;
+        padding-left: 4vw;
+    }
+    .media {
+        padding: 0;
     }
 }
 @media (max-width:800px) {
-        .img-biodata {
+    .container-biodata {
+        height: 34vh;
+    }
+    .img-biodata {
         padding-top: 7vh;
         padding-bottom: 7vh;
-        padding-right: 7vw;
-        padding-left: 7vw;
+        padding-right: 8vw;
+        padding-left: 8vw;
+    }
+    .media-body {
+        padding-top: 0;
     }
 }
 </style>

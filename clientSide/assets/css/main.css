@@ -1,24 +1,24 @@
 
 /* 1 column: 320px */
 .autowide {
-    margin: 0 auto;
-    width: 100%;
-  }
-  .autowide img {
-    float: left;
-    margin: 0 0.75rem 0 0;
-  }
-  .autowide .module {
-    background-color: lightgrey;
-    border-radius: 0.25rem;
-    margin-bottom: 1rem;
-  }
-  .autowide .module p {
-    padding: 0.25rem 0.75rem;
-  }
+        margin: 0 auto;
+        width: 100%;
+    }
+    .autowide img {
+        float: left;
+        margin: 0 0.75rem 0 0;
+    }
+    .autowide .module {
+        background-color: lightgrey;
+        border-radius: 0.25rem;
+        margin-bottom: 1rem;
+    }
+    .autowide .module p {
+        padding: 0.25rem 0.75rem;
+    }
   
   /* 2 columns: 600px */
-  @media only screen and (min-width: 600px) {
+@media only screen and (min-width: 600px) {
     .autowide .module {
       float: left;
       margin-right: 2.564102564102564%;
@@ -27,10 +27,10 @@
     .autowide .module:nth-child(2n + 0) {
       margin-right: 0;
     }
-  }
+}
   
   /* 3 columns: 768px */
-  @media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) {
     .autowide .module {
       width: 31.623931623931625%;
     }
@@ -40,10 +40,10 @@
     .autowide .module:nth-child(3n + 0) {
       margin-right: 0;
     }
-  }
+}
   
   /* 4 columns: 992px and up */
-  @media only screen and (min-width: 992px) {
+@media only screen and (min-width: 992px) {
     .autowide .module {
       width: 23.076923076923077%;
     }
@@ -53,4 +53,61 @@
     .autowide .module:nth-child(4n + 0) {
       margin-right: 0;
     }
-  }
+}
+
+.card-img-top.violet {
+    background-color: blueviolet;
+    padding: 20px;
+    object-fit: contain;
+    height: 13vh;
+}
+
+@media (max-width: 768px) {
+    .card-img-top.violet {
+        object-fit: contain;
+        height: 18vh;
+        padding: 35px;
+    }
+}
+
+.card-img-top.orange {
+    background-color: orangered;
+    padding: 20px;
+    object-fit: contain;
+    height: 13vh;
+}
+
+@media (max-width: 768px) {
+    .card-img-top.orange {
+        object-fit: contain;
+        height: 18vh;
+        padding: 35px;
+    }
+}
+
+.card.main-content {
+    height: 38vh;
+}
+
+.card-text {
+    margin: -5px;
+}
+.card-text.parent {
+    margin-bottom: -12px;
+}
+
+@media (max-width:350px) {
+    .card.main-content {
+        height: 42vh;
+    }
+}
+
+.nuxtlink-card {
+    color: black
+}
+.nuxtlink-card:hover {
+    color: dodgerblue
+}
+.nuxtlink-card:hover {
+    color: dodgerblue
+}

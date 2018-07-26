@@ -1,6 +1,6 @@
 <template>
     <div class="another-movie">
-        <h5>Related Another Movies</h5>
+        <h6 style="color: red">Related Another Movies</h6>
         <div class="card another-movie">
             <div class="card-header another-movie">
                 <h5 class="h5 another-movie">{{film.title}}</h5>
@@ -9,7 +9,7 @@
                 <p class="p another-movie">Release Date: {{film.release_date}}</p>
             </div>
             <div class="card-body">
-                <p class="card-text">{{film.opening_crawl}}</p>
+                <p>{{film.opening_crawl}}</p>
                 <nuxt-link style="float: right" to="/another-movies">See More</nuxt-link>
             </div>
         </div>
