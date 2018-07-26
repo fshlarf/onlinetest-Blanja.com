@@ -4,7 +4,7 @@
             <img class="card-img-top violet" src="../assets/images/image (1).png" alt="Card image cap">
             <div class="card-body violet">
                 <nuxt-link class="nuxtlink-card" to="/details/empire-strikes">
-                    <p class="card-text"><b>{{film.title}}</b></p>
+                    <p class="card-text"><b>{{film.title | truncate(17)}}</b></p>
                 </nuxt-link>
                 <p class="card-text parent">Director:</p>
                 <p class="card-text">{{film.director}}</p>
@@ -34,6 +34,11 @@ export default {
       .catch(err => {
         console.log(err);
       });
+  },
+  filters: {
+    truncate(string, value) {
+      return (string || '').substring(0, value) + '…';
+    }
   }
 };
 </script>

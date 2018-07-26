@@ -2,7 +2,6 @@
   <div>
     <Biodata/>
     <br>
-    
     <div class="">
       <div class="row">
         <div class="col-12 col-sm-6 col-md-8">
@@ -21,11 +20,9 @@
             <CardOrange/>
           </div>
         </div>
-
         <div class="col-md-4">
           <AnotherMovie/>
         </div>
-
       </div>
     </div> 
   </div>
@@ -56,16 +53,6 @@ export default {
 }
 .links {
   padding-top: 15px;
-}
-@media (max-width: 768px) {
-  .card {
-    width: 100%;
-  }
-}
-@media (max-width: 768px) {
-  .card {
-    width: 100%;
-  }
 }
 body {
   font-family: sans-serif;
