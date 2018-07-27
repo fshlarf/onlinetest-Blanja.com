@@ -3,20 +3,21 @@
 
 ## Build Setup
 
->Clone this repository
-# Open clientSide folder
+Clone this repository
+
+Open clientSide folder
 ``` bash
 $ cd clientSide
 
 ```
 
-# install dependencies
+install dependencies
 ``` bash
 $ npm install # Or yarn install
 
 ```
 
-# serve with hot reload at localhost:3000
+serve with hot reload at localhost:3000
 ``` bash
 $ npm run dev
 
