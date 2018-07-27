@@ -122,11 +122,12 @@ body {
         height: 46vh;
     }
 }
-@media (max-width:350px) {
+@media (max-width:800px) {
     .card.main-content {
         height: 46vh;
     }
-}
+} 
+
 .nuxtlink-card {
     color: black
 }
