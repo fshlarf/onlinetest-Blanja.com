@@ -8,9 +8,8 @@
             <h4 style="color: dodgerblue">{{film.title}}</h4>
             <p><small class="text-muted">Director: {{film.director}}</small></p>
             <p>{{film.opening_crawl}}</p>
-            <br>
             <nuxt-link to='/' style="float: right">
-              Back
+              <b>Back</b>
             </nuxt-link>
           </div>
         </div>

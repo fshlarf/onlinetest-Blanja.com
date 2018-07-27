@@ -3,7 +3,7 @@
     <div class="container">
       <div class="row justify-content-md-center">
         <div class="card detail">
-          <img src="~/assets/images/revenge_of_the_sith.jpg" alt="Card image cap" class="card-img-top">
+          <img src="~/assets/images/the-force-awakens.jpg" alt="Card image cap" class="card-img-top">
           <div class="card-body">
             <h4 style="color: dodgerblue">{{film.title}}</h4>
             <p><small class="text-muted">Director: {{film.director}}</small></p>
@@ -29,7 +29,7 @@ export default {
   },
   mounted() {
     axios
-      .get("https://swapi.co/api/films/6", {
+      .get("https://swapi.co/api/films/7", {
         crossDomain: true
       })
       .then(res => {
