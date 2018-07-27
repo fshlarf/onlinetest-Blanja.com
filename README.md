@@ -22,7 +22,10 @@ $ npm run dev
 <b>Built with</b>
 - [Visual Studio Code](https://code.visualstudio.com)
 
-MIT © [Faishal Arif]()
+<b>API Source</b>
+- [Star Wars API](https://swapi.co)
+
+© [Faishal Arif]()
 <br>
 **faisha1303@gmail.com**
 
