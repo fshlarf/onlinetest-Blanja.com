@@ -1,4 +1,4 @@
-# client-side
+# onlinetest-Blanja.com
 > a project for Blanja.com online test. Developed by Faishal Arif
 
 ## Build Setup
