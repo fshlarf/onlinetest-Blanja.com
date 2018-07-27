@@ -28,6 +28,10 @@ module.exports = {
 
   loading: { color: '#3B8070' },
 
+  plugins: [
+    '~/plugins/stringtodate.js'
+  ],
+
   build: {
     vendor: [
       'axios',

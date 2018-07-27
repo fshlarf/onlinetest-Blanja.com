@@ -1,6 +1,9 @@
 <template>
     <div class="">
-        <h4 class="h4-biodata">Luke Skywalker</h4>
+        <h4 class="h4-biodata">
+          <span style="color: red"><b>|</b></span>
+          Luke Skywalker
+        </h4>
         <div class="container-biodata">
             <br>
             <div class="media">
@@ -12,7 +15,7 @@
                     <p class="mb-1">Mass: {{ user.hair_color | capitalize }}</p>
                     <p class="mb-1">Hair Color: {{ user.skin_color | capitalize }}</p>
                     <p class="mb-1">Skin Color: {{ user.eye_color | capitalize }}</p>
-                    <p class="mb-1">Birth Year: {{ user.birth_year }}</p>
+                    <p class="mb-1">Birth Year: {{ date }}</p>
                     <p class="mb-1">Gender: {{ user.gender | capitalize}}</p>
                 </div>
             </div>
@@ -25,8 +28,9 @@ import axios from "axios";
 export default {
   data() {
     return {
-      user: []
-    };
+      user: [],
+      date: '19 June 2010'
+    }
   },
   mounted() {
     axios
@@ -47,7 +51,7 @@ export default {
       return value.charAt(0).toUpperCase() + value.slice(1);
     }
   }
-};
+}
 </script>
 
 <style>
