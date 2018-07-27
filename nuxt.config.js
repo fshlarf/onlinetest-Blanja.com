@@ -7,7 +7,7 @@ module.exports = {
       { hid: 'description', name: 'description', content: 'a project for Blanja.com online test' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/starwars-icon.png' },
+      { rel: 'icon', type: 'image/x-icon', href: '/ico_Preptest.png' },
       { rel: 'stylesheet', type: 'text/css', href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css' },
     ],
     script: [
@@ -29,7 +29,7 @@ module.exports = {
   loading: { color: '#3B8070' },
 
   plugins: [
-    '~/plugins/stringtodate.js'
+    '~/plugins/stringtodate.js',
   ],
 
   build: {

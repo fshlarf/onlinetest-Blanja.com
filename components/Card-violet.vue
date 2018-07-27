@@ -4,7 +4,7 @@
             <img class="card-img-top violet" src="../assets/images/image (1).png" @click="toDetail" alt="Images not found">
             <div class="card-body violet">
                 <nuxt-link class="nuxtlink-card" to="/details/empire-strikes">
-                  <p class="card-text"><b>{{film.title | truncate(17)}}</b></p>
+                  <p class="card-text truncate"><b>{{film.title}}</b></p>
                 </nuxt-link>
                 <p class="card-text parent">Director:</p>
                 <p class="card-text">{{film.director}}</p>
@@ -39,14 +39,34 @@ export default {
     toDetail() {
       this.$router.replace({path: '/details/empire-strikes'})
     }
-  },
-  filters: {
-    truncate(string, value) {
-      if (!string == "") {
-        return string.substring(0, value) + '…';
-      }
-    }
   }
 };
 </script>
+
+<style>
+/* Truncate */
+.card-text.truncate {
+  width: 165px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+@media (max-width: 350px) {
+    .card-text.truncate {
+    width:auto;
+    white-space: normal;
+    overflow:auto;
+    text-overflow: unset;
+  }
+}
+@media (max-width: 800px) {
+    .card-text.truncate {
+    width: auto;
+    white-space:normal;
+    overflow:auto;
+    text-overflow:unset;
+  }
+}
+</style>
+
 

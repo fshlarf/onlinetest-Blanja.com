@@ -105,6 +105,7 @@ body {
     }
 }
 
+/* BOTH CARD */
 .card.main-content {
     height: 38vh;
 }
@@ -116,13 +117,11 @@ body {
 .card-text.parent {
     margin-bottom: -12px;
 }
-
 @media (max-width:350px) {
     .card.main-content {
         height: 42vh;
     }
 }
-
 .nuxtlink-card {
     color: black
 }
