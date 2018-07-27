@@ -5,11 +5,6 @@
 
 Clone this repository
 
-Open clientSide folder
-``` bash
-$ cd clientSide
-
-```
 
 install dependencies
 ``` bash
