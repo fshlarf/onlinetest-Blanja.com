@@ -5,8 +5,8 @@
     <div class="">
       <div class="row">
         <div class="col-12 col-sm-6 col-md-8">
-          <div style="margin-bottom: 1.5vh">
-            <span style="color: red">
+          <div>
+            <span style="font-size: 20px; color: red">
               Skywalker Movie's
             </span>
             <span style="float: right">

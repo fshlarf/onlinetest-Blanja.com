@@ -10,7 +10,7 @@
             </div>
             <div class="card-body">
                 <p>{{film.opening_crawl}}</p>
-                <nuxt-link style="float: right" to="/another-movies">See More</nuxt-link>
+                <nuxt-link style="float: right" to="/skywalker-movies">See More</nuxt-link>
             </div>
         </div>
     </div>
