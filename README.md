@@ -1,6 +1,6 @@
 # onlinetest-Blanja.com
-> a project for Blanja.com online test. Developed by Faishal Arif
-It's been deployed by using free domain heroku.com. Please visit [https://faishal-arif.herokuapp.com/](https://faishal-arif.herokuapp.com/)
+> a project for Blanja.com online test. Developed by Faishal Arif.
+>It's been deployed by using free domain heroku.com. Please visit [https://faishal-arif.herokuapp.com/](https://faishal-arif.herokuapp.com/)
 
 ## Build Setup
 
