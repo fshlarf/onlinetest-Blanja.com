@@ -119,7 +119,12 @@ body {
 }
 @media (max-width:350px) {
     .card.main-content {
-        height: 42vh;
+        height: 46vh;
+    }
+}
+@media (max-width:350px) {
+    .card.main-content {
+        height: 46vh;
     }
 }
 .nuxtlink-card {
