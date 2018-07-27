@@ -2,7 +2,7 @@
      <nav class="navbar navbar-padding navbar-expand-lg navbar-light">
         <div class="container">
             <a class="navbar-brand"
-                style="color: white" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" >Star Wars Movies</a>
+                style="color: white" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" >Skywalker Movies</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                  <i class="fa fa-navicon" style="color: white"></i>
             </button>

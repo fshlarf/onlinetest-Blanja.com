@@ -44,19 +44,3 @@ export default {
 }
 </script>
 
-<style>
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-.links {
-  padding-top: 15px;
-}
-body {
-  font-family: sans-serif;
-  font-size: 0.9rem;
-}
-</style>
-
