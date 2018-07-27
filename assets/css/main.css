@@ -106,20 +106,7 @@ body {
 }
 
 /* BOTH CARD */
-.card.main-content {
-    height: 38vh;
-}
 
-@media (max-width:800px) {
-    .card.main-content {
-        height: 43vh;
-    }
-} 
-@media (max-width:350px) {
-    .card.main-content {
-        height: 45vh;
-    }
-} 
 .card-text {
     margin: -5px;
     margin-right: -8px;
